@@ -9,7 +9,7 @@ lynx_dumpHTML_stdin(){
 }
 
 lynx_seeUserAgent(){#¿an?
-  lynx -anonymous -dump https://www.whatismybrowser.com/es/detect/what-is-my-user-agent/ | \
+  lynx -dump https://www.whatismybrowser.com/es/detect/what-is-my-user-agent/ | \
   grep -A 2 "Su agente";
 }
 
